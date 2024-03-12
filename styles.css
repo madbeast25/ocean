@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family: "UnifrakturCook", cursive;
+        font-weight: 700;
+        font-style: normal;
+      
+}
+
+body{
+    background-color: #222;
+    min-height: 200vh;
+    text-align: center;
+
+}
+
+section{
+    background-color: aliceblue;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    clip-path: circle(200px at left center);
+
+}
+
+.title{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: firebrick;
+    font-size: 15vw;
+    top:50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.inner-title{
+    color: firebrick;
+    font-size: 15vw;
+    position: fixed;
+    top:50%;
+    transform: translateY(-50%);
+    background: url(ocean.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+    
+}
